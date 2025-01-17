@@ -4,5 +4,6 @@ public interface interfazLicuadora {
     public void llenar();
     public void vaciar();
     public void checkLlenar();
-    public void checkVelocidad();
+    //devuelve la velocidad actual
+    public void getVel();
 }
