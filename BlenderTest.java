@@ -11,10 +11,6 @@ class BlenderTest {
         assertTrue(blender.getSpeed() == 0);
     }
 
-    private void assertTrue(boolean b) {
-
-    }
-
     @Test
     void testIncreaseSpeed() {
         Blender blender = new Blender();
